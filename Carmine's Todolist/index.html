@@ -1,13 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="menu">
+                <h2>TO-DO LIST</h2>
+            </div>
+        </aside>
+
+        <main class="main-content">
+          <header class="header">
+            <div class="header-text">
+                <h1>Good Morning, Carmine!</h1>
+            </div>
+            <div class="sort-buttons">
+                <button class="sort-btn" id="sort-default">Default</button>
+                <button class="sort-btn" id="sort-latest">Latest</button>
+                <button class="sort-btn" id="sort-oldest">Oldest</button>
+            </div>
+        </header>
+            <section class="task-list">
+              <form id="task-form">
+                <input type="text" id="todo" placeholder="Add New task" required>
+                <div class="date-time-wrapper">
+                    <input type="date" id="date" required>
+                    <input type="time" id="time" required>
+                </div>
+                <button type="add">Add</button>
+            </form>
+    
+            </section>
+        </main>
+    </div>
+    <script src=""></script>
+</body>
 </html>
