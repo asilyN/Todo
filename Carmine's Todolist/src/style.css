@@ -92,14 +92,14 @@ body {
   width: 70%;
 }
 
-/* date and time nga wrapper */
+/* date and time nga wrapper (wala pa ni siya) */
 .date-time-wrapper {
   display: flex;
   gap: 10px;
   margin-left: auto;
 }
 
-/* Date and time nga gina inputan*/
+/* Date and time nga gina inputan (wala pa ni siya)*/
 #date, #time {
   font-family: Arial, sans-serif;
   font-weight: bold;
