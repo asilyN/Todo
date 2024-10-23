@@ -120,7 +120,7 @@ body {
   width: 150px;
 }
 
-button[type="add"] {
+.add-btn {
   padding: 10px 20px;
   border-radius: 10px;
   border: none;
@@ -194,3 +194,6 @@ button[type="add"] {
   font-size: 18px;  /* Adjust the icon size */
 }
 
+.add-btn:hover {
+  background-color: #f1b0a7;
+}
